@@ -68,4 +68,3 @@ To allow client authentication, we also need a keystore called “truststore”.
 	```
 	keytool -importkeystore -srcalias cid -srckeystore truststore.jks -srcstorepass changeit -destkeystore "cid.p12" -deststorepass changeit -deststoretype PKCS12
 	```
-# x509auth.
